@@ -50,9 +50,8 @@ main{
 .main_a{
     width: 100vw;
     height: 60vh;
-    /* overflow: hidden; */
+    overflow: hidden;
     display: flex;
-
 }
 .main_b{
     width: 100vw;
@@ -90,17 +89,47 @@ footer{
     border-radius: 8%;
     rotate: 60deg;
     position: relative;
-    top: -45%;
-    right: 5%;
+    top: -60%;
+    right: 13%;
     background-color: #eaeff1;
 }
 .human_sml{
     width: 20vw;
     position: relative;
+    right: 20vw;
 }
 .main_a_text_mid{
-    align-self: center;
-    justify-self: center;
+    width: 90vw;
+    height: 75%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     position: relative;
+    right: 20vw;
     color: #094f71;
+    align-self: center;
+    text-align: left;
+    /* border: 2px solid red; */
+    padding: 0;
+    z-index: 1;
+}
+h1{
+    font-weight: 600;
+    font-size: 2.1rem;
+}
+.line_height{
+    line-height: 3.5vh;
+}
+.p_1{
+    color: #749cb0;
+    font-size: 1.1rem;
+}
+.p_0-8{
+    color: #749cb0;
+    font-size: 0.8rem;
+}
+.p_0-8_italic{
+    color: #749cb0;
+    font-size: 0.8rem;
+    font-style: italic;
 }
