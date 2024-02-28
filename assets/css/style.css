@@ -9,7 +9,6 @@ body{
 header{
     width: 100vw;
     height: 7vh;
-    border: 2px solid red;
 }
 .header_top{
     width: 100vw;
@@ -46,13 +45,62 @@ header{
 }
 main{
     width: 100vw;
-    height: 100vh;
-    border: 2px solid red;
+    height: auto;
 }
 .main_a{
-    height: 61vh;
+    width: 100vw;
+    height: 60vh;
+    /* overflow: hidden; */
+    display: flex;
+
 }
-.main_b{}
-.main_c{}
-.main_d{}
-footer{}
+.main_b{
+    width: 100vw;
+    height: 31vh;
+    background-color: #0077f9;
+}
+.main_c{
+    width: 100vw;
+    height: 66vh;
+}
+.main_d{
+    width: 100vw;
+    height: 58vh;
+    background-color: #0077f9;
+}
+footer{
+    width: 100vw;
+    height: 13vh;
+    background-color: #094f71;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.logo_unbounce_footer{
+    width: 9vw;
+}
+.p_footer{
+    font-size: 0.5rem;
+    color: white;
+}
+.backg_form{
+    width: 100vw;
+    height: 50vw;
+    border-radius: 8%;
+    rotate: 60deg;
+    position: relative;
+    top: -45%;
+    right: 5%;
+    background-color: #eaeff1;
+}
+.human_sml{
+    width: 20vw;
+    position: relative;
+}
+.main_a_text_mid{
+    align-self: center;
+    justify-self: center;
+    position: relative;
+    color: #094f71;
+}
