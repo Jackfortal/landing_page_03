@@ -72,6 +72,9 @@ main{
     width: 100vw;
     height: 58vh;
     background-color: #0077f9;
+    display: flex;
+    align-items: center;
+    color: white;
 }
 footer{
     width: 100vw;
@@ -175,7 +178,7 @@ h2{
 }
 .main_c_container{
     width: 46%;
-    height: 60vh;
+    height: 55vh;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -220,4 +223,45 @@ h3{
     border: 1px solid #749cb0;
     color: #7099ad;
     font-weight: 600;
+}
+.main_d_container_left{
+    width: 18vw;
+    height: 12vw;
+    font-size: 0.8rem;
+    margin-left: 23vw;
+    color: #f4f9ff;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.color_white{
+    text-decoration: none;
+    color: white;
+}
+.main_d_container_line{
+    width: 2px;
+    height: 58vh;
+    background-color: #70b6f4;
+}
+.main_d_container_right{
+    width: 22vw;
+    height: 12vw;
+    margin-left: 1.5vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0;
+}
+.p_got{
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 0.15rem;
+}
+.p_click{
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.15rem;
+    bottom: 1vh;
+    position: relative;
+
 }
